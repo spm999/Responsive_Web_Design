@@ -1,0 +1,48 @@
+<doctype html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="Your Name" required>
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Your Email" required>
+            <label id="number-label" for="number">Age (optional)</label>
+            <input id="number" type="number" min="0" max="100" placeholder="Your Age">
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown" placeholder="Select current role">
+                <option></option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <input type="radio" name="recommend" value="Definitely">Definitely
+            <br>
+            <input type="radio" name="recommend" value="Maybe">Maybe
+            <br>
+            <input type="radio" name="recommend" value="Not Sure">Not Sure
+            <br>
+            <label>Which technologies are you interested in? (Check all that apply)</label>
+            <input type="checkbox" name="technology" value="Front-end Development">Front-end Development
+            <br>
+            <input type="checkbox" name="technology" value="Back-end Development">Back-end Development
+            <br>
+            <input type="checkbox" name="technology" value="Data Science">Data Science
+            <br>
+            <input type="checkbox" name="technology" value="UI/UX Design">UI/UX Design
+            <br>
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea id="comments" placeholder="Enter your comment here..."></textarea>
+            <br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+
+    </body>
+
+    </html>

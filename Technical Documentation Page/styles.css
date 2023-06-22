@@ -1,0 +1,109 @@
+/* CSS for navbar */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #navbar header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navbar li {
+    margin-bottom: 10px;
+  }
+  
+  #navbar li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: #555;
+  }
+  
+  #navbar li a:hover {
+    background-color: #777;
+  }
+  
+  /* CSS for main content */
+  #main-doc {
+    padding: 20px;
+    margin-left: 220px; /* Adjusted to create space for the navbar */
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .main-section header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .main-section p {
+    margin-bottom: 10px;
+  }
+  
+  .main-section ul {
+    margin-bottom: 10px;
+  }
+  
+  .main-section li {
+    margin-bottom: 5px;
+  }
+  
+  .main-section code {
+    display: block;
+    background-color: #ddd;
+    padding: 5px;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    #navbar {
+      width: 100%;
+      position: static;
+      padding: 0;
+    }
+  
+    #navbar ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #navbar li {
+      margin-right: 10px;
+    }
+    
+    #navbar li a {
+      padding: 10px;
+    }
+    
+    #main-doc {
+      margin-left: 0; /* Resetting the margin to remove space for navbar */
+      margin-top: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjustments for even smaller screens */
+    #navbar li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
