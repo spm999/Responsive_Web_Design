@@ -1,47 +1,39 @@
-                                                                      Web Development Projects
-This repository contains a collection of web development projects that I have created using HTML and CSS. The projects cover various aspects of web development and demonstrate my skills in responsive web design. Each project is a solution to the corresponding challenges from the FreeCodeCamp Responsive Web Design curriculum.
+# Personal Portfolio
 
-Projects
-Personal Portfolio
+This repository contains my personal portfolio which showcases my skills and projects. The portfolio is built using HTML and CSS, and it's part of my solutions for the FreeCodeCamp Responsive Web Design course.
 
-Live Demo
-Description: A personal portfolio website showcasing my skills, projects, and achievements.
-Product Landing Page
+## Projects
 
-Live Demo
-Description: A product landing page for a fictional product, highlighting its features, pricing, and a call-to-action.
-Survey Form
+### 1. Product Landing Page
 
-Live Demo
-Description: A survey form template with various input fields and options to collect user feedback or data.
-Technical Documentation
+A responsive product landing page designed with HTML and CSS.
 
-Live Demo
-Description: A technical documentation webpage providing detailed information about a programming language, library, or tool.
-Tribute Page
+- [View Project](https://portfolio99q.netlify.app/)
 
-Live Demo
-Description: A tribute page dedicated to honoring and showcasing information about a notable person or figure.
-How to Run the Projects
-To run any of the projects locally, follow these steps:
+### 2. Survey Form
 
-Clone the repository:
+A responsive survey form created using HTML and CSS.
 
-shell
-Copy code
-git clone https://github.com/your-username/your-repository.git
-Navigate to the project directory:
+- [View Project](your-link-here)
 
-shell
-Copy code
-cd project-directory
-Open the corresponding HTML file in your preferred web browser.
+### 3. Technical Documentation
 
-Contributing
-Contributions to this repository are not currently being accepted as this is a personal portfolio showcasing completed projects. However, feel free to fork the repository and modify the projects for your own use.
+A technical documentation page built with HTML and CSS.
 
-License
-The code in this repository is available under the MIT License. Please review the license file for more details.
+- [View Project](your-link-here)
 
-Contact
-If you have any questions or suggestions regarding these projects, please feel free to contact me at your-email@example.com.
+### 4. Tribute Page
+
+A tribute page designed using HTML and CSS.
+
+- [View Project](your-link-here)
+
+## Installation
+
+To run these projects locally, you can clone this repository and open the HTML files in your browser.
+
+```bash
+git clone your-repository-link-here
+cd your-repository-name
+open index.html
+
