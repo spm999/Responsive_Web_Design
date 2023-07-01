@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-This repository contains my personal portfolio which showcases my skills and projects. The portfolio is built using HTML and CSS, and it's part of my solutions for the FreeCodeCamp Responsive Web Design course.
+The portfolio is built using HTML and CSS, and it's part of my solutions for the FreeCodeCamp Responsive Web Design course.
 
 ## Projects
 
